@@ -1,0 +1,2 @@
+
+ "name": "viki-social", "version": "1.0.0", "description": "VIKI SOCIAL - Global Worldwide Social Networking Platform", "main": "index.html", "scripts": { "build": "mkdir -p www && cp index.html manifest.json sw.js www/", "cap:sync": "npx cap copy && npx cap sync" }, "dependencies": { "@capacitor/android": "^5.7.0", "@capacitor/cli": "^5.7.0", "@capacitor/core": "^5.7.0" }, "author": "VIKI SOCIAL", "license": "MIT" }
